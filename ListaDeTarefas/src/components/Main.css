@@ -1,0 +1,52 @@
+.form{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  background: white;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.main h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+.edit{
+  margin-right: 15px;
+  color: #51c5de;
+
+}
+.delete{
+  margin-right: 15px;
+  color: #f04c64;
+
+}
+
+li:hover .delete,
+li:hover .edit {
+  color: black;
+}
+
+li .delete,
+li .edit {
+  cursor: pointer;
+  transition: all 600ms;
+}
+
+.tarefas li span{
+  display: flex;
+  align-items: center;
+
+}
